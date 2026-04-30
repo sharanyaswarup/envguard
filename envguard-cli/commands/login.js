@@ -13,7 +13,7 @@ export async function loginCmd() {
       type: 'input',
       name: 'apiUrl',
       message: 'API URL:',
-      default: config.get('apiUrl') || 'http://localhost:5000/api',
+      default: config.get('apiUrl') || 'https://envguard-api-bzuh.onrender.com/api',
     },
   ]);
 
