@@ -1,11 +1,11 @@
 {
   "name": "envguard-tool",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "EnvGuard CLI — manage your secrets from the terminal",
   "type": "module",
   "bin": {
-  "envguard": "index.js"
-},
+    "envguard": "index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
