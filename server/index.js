@@ -18,9 +18,9 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
-    credentials: true,
-  },
+    origin: true,
+    credentials: true
+  }
 });
 
 // Attach io to app so controllers can use it
